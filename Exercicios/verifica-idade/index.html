@@ -11,19 +11,20 @@
         <h1>Verificador de Idade</h1>
     </header>
     <section>
-        <div>
-           <form action="verifica.php" method="post">
+        <div id="formGradient">
+           <form action="http://localhost/verifica.php" method="post">
             <label for="iano">Ano de Nascimento</label>
-            <input type="number" name="ano" id="iano" placeholder="Ex.. 1975"><br>
-            <label for="isexo">Sexo: </label>
-            <input type="radio" name="sexo" id="M"> Masculino
-            <input type="radio" name="sexo" id="F"> Feminino
+            <input type="number" name="ano" id="iano" placeholder="Ex.. 1975" required onchange="enableClick()"><br>
+            Sexo:
+            <input type="radio" name="sexo" id="M" value="masculino" required onchange="enableClick()"> <label for="M">Masculino</label>
+            <input type="radio" name="sexo" id="F" value="feminino" required onchange="enableClick()" > <label for="F">Feminino</label>
+            <input type="button" value="Verificar" id="verificar" onclick="clicar()" disabled> 
            </form>
-           <input type="button" value="Verificar" id="verificar" onclick="clicar()"> 
+           <p>Preencha os campos acima para ver o resultado </p>
         </div>
-        <p>Detectamos um </p>
+        
         <div id="imagem">
-            
+
         </div>
     </section>
     <footer>
