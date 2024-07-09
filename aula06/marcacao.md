@@ -75,9 +75,19 @@ TERNARIO
 TESTE ? TRUE :FALSE
 media >=7? "aprovado":"reprovado"
 =========================
-USANDO DOM
+
+while(c <6){
+    bloco
+}
+
+do{
+    bloco
+} while (c <=6)
 
 
+for(inicio;teste;incremento){
+
+}
 ````
 ![desenho](./desenho.drawio.svg)
 
