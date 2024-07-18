@@ -1,6 +1,4 @@
 /*function clicar() {
-
-    
     let inicio = Number(document.getElementById('iInicio').value);
     let fim = Number(document.getElementById('iFim').value);
     let passo = Number(document.getElementById('iPasso').value); 
@@ -16,9 +14,6 @@
             res.innerHTML += `${inicio} `
         }
     }
-    
-    
-     
 }
 */
 function clicar() {
@@ -40,7 +35,6 @@ function clicar() {
             p = 1
         }
         if (i < f) {
-
             for (i; i <= f; i += p) {
                 res.innerHTML += ` ${i} \u{1F449}`;
             }
@@ -49,10 +43,6 @@ function clicar() {
                 res.innerHTML += ` ${i} \u{1F449}`;
             }
         }
-        res.innerHTML + = ` \u{1FC1}`
-
-
-
-
+        res.innerHTML +=  ` \u{1FC1}`;
     }
 }
